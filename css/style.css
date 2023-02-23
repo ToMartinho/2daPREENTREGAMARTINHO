@@ -12,7 +12,13 @@
     width: 95%;
 }
 
-/* BODY INDEX */
+/* BODY GENERAL */
 .body{
+    background-color: azure;
+}
+
+/* NAV BAR */
+
+.barra{
     background-color: azure;
 }
