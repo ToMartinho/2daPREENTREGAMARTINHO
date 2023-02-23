@@ -1,4 +1,11 @@
 .action{
     margin-top: 35px;
     margin-left: 5px;
+    width: 95%;
+}
+
+.carrusel{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 95%;
 }
