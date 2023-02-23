@@ -1,11 +1,18 @@
+/* BOTON CALL TO ACTION */
 .action{
     margin-top: 35px;
     margin-left: 5px;
     width: 95%;
 }
 
+/* CARRUSEL INDEX */
 .carrusel{
     margin-top: 10px;
     margin-left: 5px;
     width: 95%;
+}
+
+/* BODY INDEX */
+.body{
+    background-color: azure;
 }
