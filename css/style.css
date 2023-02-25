@@ -1,19 +1,41 @@
 /* BOTON CALL TO ACTION */
 .action{
-    margin-top: 35px;
+    margin-top: 25px;
     margin-left: 5px;
     width: 95%;
+}
+
+
+.reserva{
+    padding: 25px 20px;
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+/* TITULO */
+.titulo{
+    margin-left: 5px;
+    font-weight: 600;
 }
 
 /* CARRUSEL INDEX */
 .carrusel{
+    /* margin-bottom: 1%; */
     margin-top: 10px;
     margin-left: 5px;
     width: 95%;
 }
+.padreCarrusel{
+    position: relative;
+    height: 70vh;
+}
+
+.fotoCarrusel{
+    position: absolute;
+}
 
 /* BODY GENERAL */
-.body{
+body{
     background-color: azure;
 }
 
@@ -21,8 +43,16 @@
 
 .barra{
     background-color: azure;
+    font-size: 20pt;
+    font-weight: 400;
 }
 
 .logo{
     width: 90px;
+}
+/* FOOTER */
+
+footer{
+    font-weight: bold;
+    background-color: #198754;
 }
