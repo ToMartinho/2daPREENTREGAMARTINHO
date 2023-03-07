@@ -52,8 +52,14 @@ body{
 }
 
 /* INSTALACIONES */
-.instalaciones{
+.separacion{
     margin-left: 15px;
+}
+
+/* TORNEOS */
+.construccion{
+    display: flex;
+    margin: auto;
 }
 
 /* FOOTER */
@@ -77,6 +83,9 @@ form{
     .padreCarrusel{
         position: relative;
         height: 30vh;
+    }
+    .construccion{
+        width: 100%;
     }
 }
 
