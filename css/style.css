@@ -50,6 +50,12 @@ body{
     border-radius: 5px;
     width: 90px;
 }
+
+/* INSTALACIONES */
+.instalaciones{
+    margin-left: 15px;
+}
+
 /* FOOTER */
 
 footer{
