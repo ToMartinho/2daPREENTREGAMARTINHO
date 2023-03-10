@@ -50,6 +50,11 @@ body {
   position: absolute;
 }
 
+/* FORMULARIO DE RESERVA */
+form {
+  margin-left: 15px;
+}
+
 /* INSTALACIONES */
 .separacion {
   margin-left: 15px;
@@ -59,11 +64,6 @@ body {
 .construccion {
   display: flex;
   margin: auto;
-}
-
-/* FORMULARIO DE RESERVA */
-form {
-  margin-left: 15px;
 }
 
 /* FOOTER */

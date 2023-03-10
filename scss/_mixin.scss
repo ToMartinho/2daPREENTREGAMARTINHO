@@ -1,0 +1,11 @@
+@mixin margen{
+    margin-left: 15px;
+}
+/* FORMULARIO DE RESERVA */
+form{
+    @include margen;
+}
+/* INSTALACIONES */
+.separacion{
+    @include margen;
+}
