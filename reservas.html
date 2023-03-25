@@ -46,13 +46,41 @@
         </div>
     </nav>
     <!-- FIN NAV BAR -->
+    <div class="separacion">
+        <h1> Reservas </h1>
+        <p>En Florida Futbol 5 podes reservar en 5 simples pasos</p>
+        <ul >
+            <li>Completa el formulario</li>
+            <li>Revisa tu email para confirmar la reserva</li>
+            <li>En el email vas a encontrar el link de mercado pago para dejarlos la reserva</li>
+            <li>Adjunta al email el comprobante de pago de la reserva y envianosla</li>
+            <li>Veni a disfutar</li>
+        </ul>
+        <p><strong>ADVERTENCIA:</strong> no te olvides de revisar el email y adjuntar el recibo y/o comprobante de la reserva,
+            de no se adjuntado la reserva no sera tomada.
+            <br>
+            Una vez que recibe el email tiene un plazo de 4hs para enviar el recibo o comprobante.
+            <br>
+            De no ser completada la reserva te llegara un email notificandote y deberas volver a cargar la reserva siguiendo los pasos anteriores.
+        </p>
+
+
+    </div>
 
     <!-- FORMULARIO DE RESERVAS -->
 
     <form>
         <fieldset>
             <h2>Horarios y dia de reserva</h2>
-            <div class="mb-3">
+            <div class="mb-3, col-5">
+                <label for="disabledSelect" class="form-label">Cancha</label>
+                <select id="disabledSelect" class="form-select" required>
+                    <option value="" disabled Selected>Elija el tipo de cancha</option>
+                    <option>Techada</option>
+                    <option>Descubierta</option>
+                </select>
+            </div>
+            <div class="mb-3, col-5">
                 <label for="disabledSelect" class="form-label">Dia</label>
                 <select id="disabledSelect" class="form-select" required>
                     <option value="" disabled Selected>Seleccione Dia</option>
@@ -65,7 +93,7 @@
                     <option>Domingo</option>
                 </select>
             </div>
-            <div class="mb-3">
+            <div class="mb-3, col-5">
                 <label for="disabledSelect" class="form-label">Horario</label>
                 <select id="disabledSelect" class="form-select" required>
                     <option value="" disabled Selected>Seleccione Horario</option>
@@ -85,7 +113,11 @@
                     <option>23 H.S</option>
                 </select>
             </div>
-            <div class="mb-3">
+            <div class="mb-3, col-5">
+                <label for="TextInput" class="form-label">Email</label>
+                <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingrese su email" required>
+            </div>
+            <div class="mb-3, col-5">
                 <label for="TextInput" class="form-label">Nombre de la reserva</label>
                 <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingrese su nombre" required>
             </div>
