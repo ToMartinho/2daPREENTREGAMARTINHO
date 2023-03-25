@@ -9,6 +9,17 @@ body {
   font-weight: 600;
 }
 
+/* BOTONES */
+button {
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+/* ol RESERVAS */
+ol li{
+  font-weight: 550;
+}
+
 /* NAV BAR */
 .barra {
   background-color: azure;
@@ -64,6 +75,8 @@ form {
 .construccion {
   display: flex;
   margin: auto;
+  margin-top: 10px;
+  width: 90%;
 }
 
 /* FOOTER */
